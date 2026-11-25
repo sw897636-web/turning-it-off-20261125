@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const ENTRY =
-  "I can hear how urgent this is — let's move fast: turn it off, turn it on, and if that fails I'll transfer you to Dave, who also has no idea.";
+  "Okay Linda, you've unplugged it 6 times, so I'm escalating your ticket to Tier 2, which is me, standing up. If Tier 2 fails, Tier 3 is me standing up near a window.";
 
 function main(): void {
   const targets = [
